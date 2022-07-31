@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+		.answer {color : blue}
+	</style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
@@ -9,6 +12,19 @@
 
 <!-- Display the variables from the login session here!
  -->
-
+ <table style = "font-size: 30px" align = "center">
+ 	<tr>
+ 		<td> your name: </td>
+ 		<td class = "answer"> {{name}} </td>
+ 	</tr>
+ 	<tr>
+ 		<td> your age: </td>
+ 		<td class = "answer"> {{age}} </td>
+ 	</tr>
+ 	<tr>
+ 		<td> your message: </td>
+ 		<td class = "answer"> {{message}} </td>
+ 	</tr>
+ </table>
 </body>
 </html>
